@@ -22,7 +22,9 @@ cd
 sudo docker-compose up
 
 4- Para acoplar a um banco de dados, utilize o hostname: 172.18.0.2
+
 5- Para acessar os conteiners docker, utilize:
+
 $ docker run -d -p 3306:3306 --name a(dicione um nome) -e MYSQL_ROOT_PASSWORD= (crie uma senha) mysql  
 
 6- Para ter uma visualização gráfica do banco de dados, será utilizado o MySQL com Docker, acessado pelo mysql workbench.
